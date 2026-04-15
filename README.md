@@ -8,7 +8,6 @@ I like building terminal-first tools, local-first systems, practical automation,
 
 I’ve been building a small family of terminal-first control tools for real-world systems:
 - [`poolctl`](https://github.com/cnberry/poolctl) — Pentair ScreenLogic control CLI
-- [`lightctl`](https://github.com/cnberry/lightctl) — local lighting control CLI
 - [`hottubctl`](https://github.com/cnberry/hottubctl) — Sundance SmartTub control CLI
 
 ## Interested in
