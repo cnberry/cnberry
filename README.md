@@ -14,11 +14,12 @@ humans and agents alike.
 | [`gatectl`](https://github.com/cnberry/gatectl) | LiftMaster/MyQ | accounts, devices, online and open/closed state | gate and garage-door open/close |
 | [`poolctl`](https://github.com/cnberry/poolctl) | Pentair ScreenLogic | controller, bodies, circuits, pumps, cleaner, delays | cleaner on/off and delay cancel |
 | [`hottubctl`](https://github.com/cnberry/hottubctl) | Sundance SmartTub | spas, connectivity, water/set temperature, freshness | target temperature |
+| [`switchctl`](https://github.com/cnberry/switchctl) | Local switch backends | named endpoints, roles, reachability, readiness | on/off and enable/disable |
 
-The three projects share the same shape: private local configuration, compact
-human output, JSON for automation, explicit confirmation for mutations, post-
-write readback, hardware-free tests, and honest reporting when data is stale or
-an unofficial integration is uncertain.
+The `*ctl` projects share the same shape: private configuration, compact human
+output, safe JSON for automation, explicit confirmation for mutations, post-
+write readback, hardware-free tests, a language-neutral `script/install`
+contract, and honest reporting when an integration is uncertain.
 
 ## Engineering interests
 
