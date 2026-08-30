@@ -1,68 +1,59 @@
 # Chris Berry
 
-**I build agents professionally, use them personally, and design software for a world where people and agents work together.**
+**At OpenAI, I build agents. At home, I keep finding jobs for them.**
 
-At OpenAI, I build agents and the systems behind them. Outside work, I use agents
-to solve problems in my own life—from exploring medical scans to operating
-real-world hardware.
+There has never been a better time to be a builder.
 
-I build **agent-first software**: tools designed from the start for agents to
-understand, operate, and collaborate through, while staying clear and useful to
-people. The goal is practical software that helps me in my life and, hopefully,
-yours as well.
+A fuzzy idea can become a working thing in an afternoon. The odd little problems
+that are too personal, too niche, or too annoying for normal software are suddenly
+worth solving.
 
-## What agent-first means to me
+That is what I do here.
 
-Agent-first does not mean agent-only. It means building systems that:
+I like software that starts with the way a person actually thinks:
 
-- expose capabilities, state, and uncertainty clearly
-- give agents structured, composable interfaces
-- keep people in control of consequential actions
-- verify real-world changes instead of assuming they worked
-- make privacy, local operation, and safe failure part of the design
-- turn complicated setup and workflows into a useful conversation
+> I have a folder of medical scans. Can you help me understand them?
+>
+> Is the pool ready?
+>
+> Did the gate actually close?
 
-## Featured project
+Then I work backwards until an agent can help: clear state, useful tools, honest
+answers, and a person still in charge.
 
-### [DICOM Guide](https://github.com/cnberry/dicom-guide)
+Agent-first software sounds fancy. Mostly it means I should be able to say what I
+want, see what the system knows, and trust it to admit when it doesn't.
 
-A local MRI and CT viewer built to be driven by an agent. Point it at a scan folder
-and an agent can inventory the study, choose a useful series, navigate exact slices,
-highlight anatomy, explain imaging concepts in plain language, and help you ask
-better questions—all while keeping scan pixels and metadata on your computer.
+## [DICOM Guide](https://github.com/cnberry/dicom-guide)
 
-DICOM Guide is an example of the software I want to build: an expert tool made
-approachable through an agent, with a human-visible interface and deliberate
-boundaries around privacy and uncertainty.
+Point it at a folder of MRI or CT scans. An agent finds the study, opens a useful
+view, moves through exact slices, points at what it is talking about, and helps you
+ask better questions. The scans stay on your computer.
 
-## More things I build
+Medical imaging is complicated. Getting oriented in your own scan folder should
+not be.
 
-### Agents for real-world systems
+## Small tools for real life
 
-My `*ctl` projects give people and agents consistent, guarded interfaces to physical
-systems:
+Annoying apps are an excellent source of projects.
 
-| Project | What it connects |
-| --- | --- |
-| [`gatectl`](https://github.com/cnberry/gatectl) | LiftMaster/MyQ gates and garage doors |
-| [`poolctl`](https://github.com/cnberry/poolctl) | Pentair ScreenLogic pools and equipment |
-| [`hottubctl`](https://github.com/cnberry/hottubctl) | Sundance SmartTub spas |
-| [`switchctl`](https://github.com/cnberry/switchctl) | Local switch backends |
+- [`gatectl`](https://github.com/cnberry/gatectl) — gates and garage doors
+- [`poolctl`](https://github.com/cnberry/poolctl) — pools, pumps, and cleaners
+- [`hottubctl`](https://github.com/cnberry/hottubctl) — hot tubs and temperature
+- [`switchctl`](https://github.com/cnberry/switchctl) — switches without the mystery
 
-They share a practical agent-ready shape: private configuration, concise human
-output, structured JSON, explicit confirmation for mutations, post-write readback,
-hardware-free tests, and honest reporting when an integration is uncertain.
+Same idea every time: show the state, make the useful action easy, slow down the
+consequential ones, and check the world afterward.
 
-The control tools are one small part of a broader interest: building software around
-what agents can do for us at work, at home, and in the rest of everyday life.
+The `*ctl` tools are one small corner of this. They are also a pretty good
+explanation of how I think.
 
-## Areas I work in
+## What pulls me in
 
-- agent architecture, tools, and workflows
-- agent-first product and interface design
-- systems and infrastructure
-- local-first and privacy-conscious software
-- safe interaction with real-world systems
-- C, C++, Python, and Rust
+Agents that can do useful work. Systems that explain themselves. Local software
+that respects the machine it runs on. Tools that cross the line between bits and
+the real world.
+
+Mostly: powerful things made simple enough to use.
 
 <!-- cnberry/cnberry is the repository rendered on this GitHub profile. -->
