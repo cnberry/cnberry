@@ -12,5 +12,3 @@ I build with agents and for agents. Ideas that used to sit on the "someday" list
 are suddenly things I can try in an afternoon. I'm having a lot of fun with that.
 
 Time to get building.
-
-[LinkedIn](https://www.linkedin.com/in/christopherberry/)
